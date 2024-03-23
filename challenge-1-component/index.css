@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+
+}
+.nav-logo {
+    width: 60px;
+}
