@@ -20,6 +20,6 @@ To navigate to sub-branches, you can leverage Git commands to switch between the
 
  React component are indepenent and resuable bits of code. They safe thesame purpose as in JavaScript function but work in isolationand return html.
 
- **Project-2**
+ **Project-2 and Project-3**
 
  created components, using css styling in react and jsx.

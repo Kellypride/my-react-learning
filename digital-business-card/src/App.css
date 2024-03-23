@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  /* background-color: #05071a; */
+
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #292a30;
+  font-family: "Inter Tight", sans-serif;
+}
+.App {
+  width: 400px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  background-color: #292a30;
+  margin: 30px;
+  
+}
+
+
