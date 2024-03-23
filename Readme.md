@@ -13,5 +13,13 @@ While the repository currently only has a main branch called `main` branch, futu
 
 To navigate to sub-branches, you can leverage Git commands to switch between them and explore your learning journey:
 
-```bash
-git checkout <branch_name>
+
+```git checkout <branch_name>  bash```
+
+## React Component
+
+ React component are indepenent and resuable bits of code. They safe thesame purpose as in JavaScript function but work in isolationand return html.
+
+ **Project-2**
+
+ created components, using css styling in react and jsx.
