@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+.contacts {
+  background-color: rgb(240, 225, 225);
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  padding: 20px 10px;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+.card-image {
+  display: flex;
+  width: 200px;
+  height: 140px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.infor-group {
+  display: flex;
+  align-items: center;
+  line-height: 1.2rem;
+}
+
+p, h1 {
+  margin: 0%;
+}
+
+/* Responsive Styles */
+@media screen and (min-width: 481px) {
+
+}

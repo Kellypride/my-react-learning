@@ -13,5 +13,19 @@ While the repository currently only has a main branch called `main` branch, futu
 
 To navigate to sub-branches, you can leverage Git commands to switch between them and explore your learning journey:
 
-```bash
-git checkout <branch_name>
+``` git checkout <branch_name> ```bash
+
+## Props in react
+ 
+ Props are arguements passed intyo a function allowing parent component to provide information to their child component.
+
+```time-of-day is the  concept of props```
+
+### with the project contact i implementd the following in props
+  ``` Destructuring props```
+  ``` Passing non string to props```
+  ``` Array mapping``
+  ``` Project joke: "Render array"```
+  ``` Mapping component```
+  ``` Loading images from props```
+  ```Spread props objects```
