@@ -1,0 +1,12 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 3.98256px 8.4564px rgba(0, 0, 0, 0.1); /* Add the shadow effect */
+    height: 70px;
+    padding: 10px 26px;
+}
+.navbar-logo {
+    max-width: 200px;
+    height: 100px;
+}

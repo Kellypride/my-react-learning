@@ -1,0 +1,52 @@
+section {
+    padding: 20px;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.hero-image {
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+    padding-top: 10px 0 0 0 ;
+}
+
+.hero-contents {
+    display: flex;
+    flex-direction: column;
+    line-height: 0%;
+    
+
+}
+.hero-header {
+    font-size: 16px;
+    font-weight: bold;
+    text-wrap: wrap;
+    line-height: 1em;
+}
+.hero-para {
+    margin-top: 0%;
+    font-size: 14px;
+    text-wrap: wrap;
+    line-height: 1em;
+
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 768px) {
+  .hero-header {
+    font-size: 40px; 
+    font-weight: bold; 
+  }
+  .hero-image {
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+    padding:50px 0 0 0 ;
+}
+} 
