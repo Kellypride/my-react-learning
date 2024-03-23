@@ -1,0 +1,81 @@
+.state {
+  text-align: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 20px;
+  position: relative;
+}
+
+.state-title {
+  color: aliceblue;
+  font: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large;
+
+}
+
+
+.state-value {
+  background-color: white;
+  padding: 0px 20px;
+  border: 2 solid black;
+  border-radius: 100%;
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  cursor: pointer;
+
+
+}
+
+.state-value:hover {
+  background-color: aqua;
+}
+
+.counter {
+  display: flex;
+}
+.counter-count {
+  background-color: white;
+  padding: 10px 40px;
+  border: 1px solid black;
+  border-radius: 100%;
+  position: relative;
+  z-index: 20;
+
+}
+.counter-plus, .counter-minus {
+  padding:5px 10px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 100%;
+  background-color: gray;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  font-weight: bolder;
+  /* position: absolute; */
+  z-index: 30;
+  text-align: center;
+  
+}
+.counter-plus {
+  left: 320px;
+ 
+}
+.counter-minus {
+  right: 320px;
+ 
+}
+ 
+.render {
+  /* position: absolute; */
+  top:87%;
+  left: 320px;
+}
+
+
