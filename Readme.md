@@ -18,3 +18,13 @@ To navigate to sub-branches, you can leverage Git commands to switch between the
 ## States in react
 
 States are values that are managed within a component that can be change overtime
+
+**In states i learned the following**
+ -useState
+ -changing state
+ -useState-Changing state with callback function
+ -Ternary practise and flipping state back and forth
+ -Refactor state
+ -Passing state as props
+ -setting states form child components
+ 
