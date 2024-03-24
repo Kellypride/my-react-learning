@@ -13,5 +13,8 @@ While the repository currently only has a main branch called `main` branch, futu
 
 To navigate to sub-branches, you can leverage Git commands to switch between them and explore your learning journey:
 
-```bash
-git checkout <branch_name>
+```git checkout <branch_name> ```
+
+``` run npm install to install n odemudoles ```
+
+**Learn how to pass data from one component to another.**
