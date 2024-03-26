@@ -7,7 +7,7 @@ function Form() {
     firstName:"", 
     lastName: "", 
     emailAdress: "", 
-    Comments: "",
+    comments: "",
     isFriendly: true,
     employment: "",
     favColor: ""
@@ -33,14 +33,14 @@ function Form() {
   }
   return (
     <form onSubmit={handleSubmit}>
-      <input 
+      <input className="input" 
           type="text" 
           placeholder="First Name"
           name="firstName"
           onChange={handleChange} 
           value={formData.firstName}
       />
-      <input
+      <input className="input"
           type="text" 
           placeholder="Last Name"
           name="lastName"
@@ -48,7 +48,7 @@ function Form() {
           value={formData.lastName}
           
       />
-      <input
+      <input className="input"
           type="email" 
           placeholder="email address"
           name="emailAdress"
@@ -56,12 +56,12 @@ function Form() {
           value={formData.emailAdress}
           
       />
-      <textarea 
+      <textarea className="input"
       type="text"
       placeholder="Write a message here"
       name="comments"
       onChange={handleChange} 
-      value={formData.Comment} />
+      value={formData.comments} />
       <div className="checkbox">
         <input 
         type="checkbox"
@@ -71,7 +71,7 @@ function Form() {
         onChange={handleChange} 
 
         />
-        <label for="isFriendly">Are you friendly</label>
+        <label htmlFor="isFriendly">Are you friendly</label>
       </div>
       <fieldset>
         <legend>Current employment status</legend>
@@ -86,7 +86,7 @@ function Form() {
           onChange={handleChange}
 
           />
-          <label for="unemployed">Unemployed</label>
+          <label htmlFor="unemployed">Unemployed</label>
         </div>
         <div className="radio">
           <input 
@@ -99,7 +99,7 @@ function Form() {
 
 
           />
-          <label for="part-time">Part-time</label>
+          <label htmlFor="part-time">Part-time</label>
         </div>
         <div className="radio">
           <input 
@@ -111,7 +111,7 @@ function Form() {
           onChange={handleChange}
 
           />
-          <label for="full-time">Full-time</label>
+          <label htmlFor="full-time">Full-time</label>
         </div>
         
       </fieldset>
