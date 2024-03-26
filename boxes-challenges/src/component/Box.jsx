@@ -6,7 +6,7 @@ export default function Box (props) {
     const [isOn, setIsOn] = React.useState(props.isOn )
 
     const styles = {
-    backgroundColor: isOn ? "#222222" : "current"
+    backgroundColor: isOn ? "#222222" : "currents"
   }
 
    function handleClikcks () {
