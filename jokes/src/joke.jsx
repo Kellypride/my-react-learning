@@ -12,7 +12,7 @@ export default function Jokes (props) {
         <div className="jokes">
             {props.setup && <h3 >setup: {props.setup}</h3>}
             {isShown && <p>punchline: {props.punchline}</p>}
-            <button onClick={toggleShown}> show punchline</button>
+            <button onClick={toggleShown}> {isShown ? "Show" : "Hide"} punchline</button>
             <hr />
         </div>
     )
