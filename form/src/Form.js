@@ -16,9 +16,9 @@ function Form() {
   // console.log(formData.favColor)
   function handleChange(event) {
     const {name, value, type, checked} = event.target
-     setFormData (prevFormDate => {
+     setFormData (prevFormData => {
       return {
-        ...prevFormDate,
+        ...prevFormData,
         [name]: type === "checkbox" ? checked : value
 
       }
