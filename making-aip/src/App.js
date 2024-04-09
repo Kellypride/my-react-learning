@@ -12,16 +12,16 @@ function App() {
 //sideEffect
 React.useEffect(function(){
   console.log("Effect function ran")
-  // fetch("https://swapi.dev/api/people/1")
-  // .then(res => res.json())
-  // .then(data => StarWarsData(data))
+  fetch(`https://swapi.dev/api/people/${count}`)
+    .then(res => res.json())
+    .then(data => setStarWarsData(data))
 
-},[count])
+}, [count])
 
   return (
     <div>
       <pre>{JSON.stringify(StarWarsData, null, 2)}</pre>
-      <h2>The count is {count}</h2><button onClick={() => setCount(prevCount => prevCount + 1)}>Add</button>
+      <h2>The count is {count}</h2><button onClick={() => setCount(prevCount => prevCount + 1)}>Get next character</button>
       
     </div>
   );
